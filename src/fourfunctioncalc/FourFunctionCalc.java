@@ -30,7 +30,8 @@ public class FourFunctionCalc {
         } while (num1 < -99.99 | num1 > 99.99 | num2 < -99.99
                 | num2 > 99.99 | num2 == 0);
         
-        //call overloaded method, results from input of integers or one or doubles
+        //call appropriate overloaded method,
+        //results from user input of integers or user input of one or more doubles
         if (((int) num1 != num1) | ((int) num2 != num2)) {
             addResult = String.format("%.2f", add(num1, num2));
             subtractResult = String.format("%.2f", subtract(num1, num2));
