@@ -1,6 +1,17 @@
 # FourFunctionCalcUpdatedProject
 SDEV 1060 Project
 
+You have already done an exercise to create a table of test cases for a four-function calculator. In this project, you will actually create that calculator and its unit tests.
+
+The calculator will get 2 integer inputs from the user, then calculate the result of addition, subtraction, multiplication, and division.
+
+You don't need to write the code to create that part of the project -- you will be testing the methods that perform the calculations, not the user interface. Write a method for each of the 4 operations -- addition, subtraction, multiplication, division; all methods need 2 parameters for the input values. These calculation methods can be in a class for math operations, or can be static methods in the main class -- your choice. The calculator can handle 2-digit numbers for input, negative and positive, so the range of input is -99 to 99, inclusive.
+
+Create unit tests for each calculation method. Use multiple assert statements in each test method, using the data from the test cases created previously. There must be at least 10 test cases and assertions for each calculation, testing the happy path and edge cases. 
+
+Run the tests and take a screenshot of the successful results. Take screenshots of the code for all of the unit tests as well as the code for the methods for calculation.
+
+Submission: table of test cases, specified screenshots, and the root folder for the project.
 
 == We're Using GitHub Under Protest ==
 
