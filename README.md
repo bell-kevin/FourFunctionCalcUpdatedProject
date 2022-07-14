@@ -11,7 +11,7 @@ Create unit tests for each calculation method. Use multiple assert statements in
 
 Run the tests and take a screenshot of the successful results. Take screenshots of the code for all of the unit tests as well as the code for the methods for calculation.
 
-Submission: table of test cases, specified screenshots, and the root folder for the project.
+Submission: table of test cases, specified screenshots, and the root folder for the project
 
 == We're Using GitHub Under Protest ==
 
