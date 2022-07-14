@@ -1,17 +1,23 @@
 # FourFunctionCalcUpdatedProject
 SDEV 1060 Project
 
-You have already done an exercise to create a table of test cases for a four-function calculator. In this project, you will actually create that calculator and its unit tests.
+In the last module's competency project, you created the Calculator project and added 4 unit tests, one for each calculation. Rather than run each individual test multiple times, you put multiple assert statements in each test. In this version of the project, you will use runners to provide data for multiple executions of the tests, and a test suite to run all of the tests with one command.
 
-The calculator will get 2 integer inputs from the user, then calculate the result of addition, subtraction, multiplication, and division.
+Make a COPY of the calculator project from Module 2. 
 
-You don't need to write the code to create that part of the project -- you will be testing the methods that perform the calculations, not the user interface. Write a method for each of the 4 operations -- addition, subtraction, multiplication, division; all methods need 2 parameters for the input values. These calculation methods can be in a class for math operations, or can be static methods in the main class -- your choice. The calculator can handle 2-digit numbers for input, negative and positive, so the range of input is -99 to 99, inclusive.
+In the main project, overload all 4 calculation methods to work with doubles instead of integers. You should have 8 calculation methods, 4 that work with doubles and 4 that work with integers.
 
-Create unit tests for each calculation method. Use multiple assert statements in each test method, using the data from the test cases created previously. There must be at least 10 test cases and assertions for each calculation, testing the happy path and edge cases. 
+You already have some test cases for the integer calculations. The calculation methods using doubles require additional test cases. Create a complete set of test cases for the calculations that work with doubles. This needs to include the same types of checks listed in the Test Cases assignment in Module 1, plus you need to think about working with values with different numbers of decimal places. The numbers can range from -99.99 to 99.99, inclusive. Create these test cases in an Excel or Word document. There must be at least 10 test cases for each calculation.
 
-Run the tests and take a screenshot of the successful results. Take screenshots of the code for all of the unit tests as well as the code for the methods for calculation.
+(Java) In this new version of the project, each test method must be in its own file. When runners are providing data, there can be only one set of data that is used for all methods within that test file containing the runner. For the calculator operations, it is possible to use the same test data for addition and subtraction, and perhaps for multiplication, but any test with a value of zero will cause problems with the division operation. And the test data for integers differs from the test data for doubles. To practice runners more thoroughly, create different test files/classes for each operation and data type, and copy the data sets as appropriate. You can leave the existing test files from the previous project, or you can delete them with a refactor.
 
-Submission: table of test cases, specified screenshots, and the root folder for the project
+(Java) Once the test classes have runners, you could run each one individually, but it's so much faster to use a test suite. Add a test suite to the test package, and list the test methods for all of the calculator operations to run in that suite. Note that if you have the previous test files still in the package, all you have to do to remove them from the process is to leave them out of the list of files to run in the test suite. 
+
+(C#) You can put all of the Data Test Methods in the same file. Each test method must have its own Data Rows. The data can be duplicated, just copy and paste, where appropriate. 
+
+Run the tests and take a screenshot of the successful results.
+
+Submission: table of test cases with new tests for doubles, screenshots of the successful run, and the root folder for the project.
 
 == We're Using GitHub Under Protest ==
 
