@@ -17,7 +17,7 @@ You already have some test cases for the integer calculations. The calculation m
 
 Run the tests and take a screenshot of the successful results.
 
-Submission: table of test cases with new tests for doubles, screenshots of the successful run, and the root folder for the project.
+Submission: table of test cases with new tests for doubles, screenshots of the successful run, and the root folder for the project
 
 == We're Using GitHub Under Protest ==
 
