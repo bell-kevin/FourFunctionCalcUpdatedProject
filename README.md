@@ -3,7 +3,7 @@ SDEV 1060 Project
 
 In the last module's competency project, you created the Calculator project and added 4 unit tests, one for each calculation. Rather than run each individual test multiple times, you put multiple assert statements in each test. In this version of the project, you will use runners to provide data for multiple executions of the tests, and a test suite to run all of the tests with one command.
 
-Make a COPY of the calculator project from Module 2. 
+Make a COPY of the calculator project from Module 2 
 
 In the main project, overload all 4 calculation methods to work with doubles instead of integers. You should have 8 calculation methods, 4 that work with doubles and 4 that work with integers.
 
