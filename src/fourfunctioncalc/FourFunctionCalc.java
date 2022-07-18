@@ -13,8 +13,7 @@ public class FourFunctionCalc {
     public static void main(String[] args) {
         Scanner computerKeyboardInput = new Scanner(System.in);
         double num1, num2; //user input
-        String addResult, subtractResult,
-                multiplyResult, divideResult; //answers converted to strings
+        String addResult, subtractResult, multiplyResult, divideResult; //answers converted to strings
         System.out.println("Calculator Functions by Kevin Bell\n");
         //input loop to validate user entry in range
         do {
